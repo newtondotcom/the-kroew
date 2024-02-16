@@ -8,8 +8,11 @@ const translations = {
     },
     };
 
+let locale = 'en';
+
 function translate(key: string) {
-        let locale = navigator.language.split('-')[0] || 'en';
+        if (navigator.language === undefined) {locale = 'en';}
+        else navigator.language.split('-')[0];
         return translations[locale][key] || key;
 }
     
