@@ -10,7 +10,7 @@
 <h1 class="text-indigo-300 text-4xl pl-6 pt-4">The Kroew</h1>
 <CurrentMission bind:currentMission />
 {#if currentMission == 0}
-<div class="flex flex-col items-center align-middle justify-center gap-4">
+<div class="flex flex-col items-center align-middle justify-center gap-4 mt-[100px]">
     <div class="font-semibold">{translate("player_number")}</div>
     <div class="w-32">
         <label for="Quantity" class="sr-only"> Quantity </label>
