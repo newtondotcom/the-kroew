@@ -4,8 +4,8 @@
   
 	// Define types CardSuite and CardValue if not already defined
   
-	export let suite: CardSuite;
-	export let value: CardValue;
+	export let suite: string;
+	export let value: string;
 	let classStr = '';
 	export { classStr as class };
 	let cardSvgPath: string;
