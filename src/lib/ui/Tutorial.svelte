@@ -12,4 +12,16 @@
     {translate("tutorial")}
 </div>
 
-<Card suite="hearts" value="A"/>
+<div class="font-semibold text-indigo-400 text-5xl">
+    {translate("regular")}
+</div>
+<div class="flex flex-row">
+    <Card suite="hearts" value="A"/>
+</div>
+
+<div class="font-semibold text-indigo-400 text-5xl">
+    {translate("trumps")}
+</div>
+<div class="flex flex-row">
+    <Card suite="hearts" value="A"/>
+</div>
