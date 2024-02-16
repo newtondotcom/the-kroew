@@ -5,6 +5,7 @@
     let playerNumber: number = 0;
 
     import CurrentMission from "$lib/missions/CurrentMission.svelte";
+    import Tutorial from "$lib/ui/Tutorial.svelte";
 </script>
 
 <h1 class="text-indigo-300 text-4xl pl-6 pt-4">The Kroew</h1>
@@ -66,6 +67,7 @@
             </svg>
         </span>
     </button>
+    <Tutorial />
 </div>
 {:else}
 <div class="absolute top-4 right-6 rounded-full p-2 border-4 border-indigo-50">&#10005</div>
