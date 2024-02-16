@@ -9,7 +9,7 @@
 </script>
 
 <h1 class="text-indigo-300 text-4xl pl-6 pt-4">The Kroew</h1>
-<CurrentMission bind:currentMission />
+<CurrentMission/>
 {#if currentMission == 0}
 <div class="flex flex-col items-center align-middle justify-center gap-4 mt-[100px]">
     <div class="font-semibold">{translate("player_number")}</div>
@@ -40,7 +40,7 @@
         </div>
     </div>
     <button
-        class=" w-40 group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+        class=" w-[200px] group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
     >
         <span
             class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500"

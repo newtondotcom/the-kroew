@@ -1,8 +1,6 @@
 <script lang="ts">
-export let currentMission:number;
-
 import M1 from "./M1.svelte";
-
+let currentMission = 1;
 </script>
 
 {#if currentMission === 1}
